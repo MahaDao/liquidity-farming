@@ -63,7 +63,7 @@ module.exports = {
 
   compilers: {
     solc: {
-      version: "0.5.16",
+      version: "0.6.12",
       // docker: true,
       settings: {
         optimizer: {
@@ -77,10 +77,5 @@ module.exports = {
 
   plugins: [
     "solidity-coverage",
-    "truffle-plugin-verify"
   ],
-
-  api_keys: {
-    etherscan: process.env.ETHERSCAN_API_KEY
-  },
 }
